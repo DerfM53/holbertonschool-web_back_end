@@ -1,8 +1,3 @@
-export default async function loadBalancer(chinaDownload, USDownload) {
-  try {
-    const result = await Promise.race([chinaDownload, USDownload]);
-    return result;
-  } catch (error) {
-    throw error;
+export default function loadBalancer(chinaDownload, USDownload) {
+    return Promise.race([chinaDownload, USDownload]);
   }
-}
