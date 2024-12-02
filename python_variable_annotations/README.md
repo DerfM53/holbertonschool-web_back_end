@@ -1,0 +1,1 @@
+New directory for learn typing annotation in Python (correction with MyPy)
