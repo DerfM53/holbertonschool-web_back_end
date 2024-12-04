@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """
 This module containt function for add two numbers.
 """
