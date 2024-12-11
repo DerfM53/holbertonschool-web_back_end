@@ -1,0 +1,2 @@
+// This command delete a document of the collection
+db.school.deleteOne({name: "Holberton school"})

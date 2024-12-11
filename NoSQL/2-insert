@@ -1,0 +1,2 @@
+// This command create a collection (school) with argument key and value
+db.school.insertOne({name: "Holberton school"})
